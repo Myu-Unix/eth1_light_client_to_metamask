@@ -1,4 +1,4 @@
-# eth1_light_client_to_metamask
+# How to submit an Ethereum Tx through Metamask via Geth "light client"
 
 ![img](header.png)
 
@@ -19,13 +19,15 @@ Get the latest Geth from https://geth.ethereum.org/downloads/ , here we are usin
 
     ./geth --data-dir /mnt/eth_chain --syncmode "light" --http --http.port 5566 --http.api personal,web3,eth,net --http.corsdomain '*' --rpc --rpcaddr <REPLACE_BY_YOUR_LOCAL_IP>
 
+You can of course replace the --data-dir argument by the location of your choice, currently the light client takes < 500 MB of space.
+
 For this tutorial, I have used 192.168.1.15 as "local IP", I will use this value later on. Change it accordingly.
 
-Let the blockchain sync, with the light client, it's pretty fast, around 15 mins, you can see if it's synced if you only have "Imported new block headers" messages on the logs.
+Let the blockchain sync, with the light client it's pretty fast (around 15 mins). You can see if it's synced if you only have "Imported new block headers" messages on the logs.
 
 #### Metamask Setup
 
-Open Metamask and on the Network drop down which is at the very top, select "Custom RPC"
+Open Metamask, click on the Network drop down which is at the very top, select "Custom RPC"
 
 Set those values :
 
