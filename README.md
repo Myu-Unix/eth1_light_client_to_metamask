@@ -4,6 +4,8 @@ This tutorial is intend to explain how to setup a local ETH1 light client using 
 
 This has the benefit that you do not rely on third-party infrastructure (i.e Infura) to access the Ethereum mempool.
 
+PR welcomed and no warranty, use it as your own risk. Always DYOR.
+
 #### Install Geth on Linux
 
 Get the latest Geth from https://geth.ethereum.org/downloads/ , here we are using 1.9.25
@@ -25,11 +27,11 @@ Open Metamask and on the Network drop down which is at the very top, select "Cus
 
 Set those values :
 
-Network Name : pick_whatever_you_want
+**Network Name** : pick_whatever_you_want
 
-New RPC URL : http://REPLACE_BY_YOUR_LOCAL_IP:HTTP_PORT (e.g here : 192.168.1.15:5566
+**New RPC URL** : http://REPLACE_BY_YOUR_LOCAL_IP:HTTP_PORT (e.g here : 192.168.1.15:5566)
 
-Chain ID : 1
+**Chain ID** : 1
 
 ![img](rpc_setup_mm.png)
 
