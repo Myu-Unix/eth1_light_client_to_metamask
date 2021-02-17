@@ -26,11 +26,15 @@ Open Metamask and on the Network drop down which is at the very top, select "Cus
 Set those values :
 
 Network Name : pick_whatever_you_want
+
 New RPC URL : http://REPLACE_BY_YOUR_LOCAL_IP:HTTP_PORT (e.g here : 192.168.1.15:5566
+
 Chain ID : 1
 
 ![img](rpc_setup_mm.png)
 
-If all goes well, Metamask will allow it, you can then try to send a Tx through it to see if it works ! If you are fast enough, you'll see that your Geth client received a transaction in its logs.
+If all goes well, Metamask will allow it !
+
+You can then try to send a Tx through it to see if it works ! If you are fast enough, you'll see that your Geth client received a transaction in its logs.
 
 That's all folks, happy setup ! :)
