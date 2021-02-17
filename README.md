@@ -1,5 +1,7 @@
 # eth1_light_client_to_metamask
 
+![img](header.png)
+
 This tutorial is intend to explain how to setup a local ETH1 light client using Geth and how to submit an Ethereum Tx to the mempool through it.
 
 This has the benefit that you do not rely on third-party infrastructure (i.e Infura) to access the Ethereum mempool.
