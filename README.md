@@ -4,7 +4,7 @@
 
 This how-to is intended to explain how to setup a local Ethereum "light client" using Geth and how to connect it to Metamask
 
-This has the benefit to not **fully** rely on third-party infrastructure (i.e Infura) to submit Tx the Ethereum mempool but your light client is actually getting data from full nodes so a full node might be an even better option if you can spare the cash for a 1TB+ SSD.
+This has the benefit to not **fully** rely on third-party infrastructure (i.e Infura) to submit Tx's the Ethereum mempool - your light client is actually getting data from full nodes so a full node might be an even better option if you can spare the cash for a 1TB+ SSD - this helps data availibility within the network.
 
 Use it at your own risk. Always DYOR regarding distributed systems and crypto. Contributions welcomed.
 
