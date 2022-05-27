@@ -10,36 +10,21 @@ PR welcomed and no warranty, use it at your own risk. Always DYOR.
 
 #### Install Geth on Linux
 
-Get the latest Geth from https://geth.ethereum.org/downloads/ , here we are using 1.9.25
-
-    tar xzvf geth-linux-amd64-1.9.25-e7872729.tar.gz
-    cd geth-linux-amd64-1.9.25-e7872729.tar.gz
+Get the latest Geth from https://geth.ethereum.org/downloads/ and unpack it.
     
 #### Run it !
 
-    ./geth --data-dir /mnt/eth_chain --syncmode "light" --http --http.port 5566 --http.api personal,web3,eth,net --http.corsdomain '*' --rpc --rpcaddr <REPLACE_BY_YOUR_LOCAL_IP>
+    ./geth --datadir /Users/myu/code/geth_data --syncmode "light" --http --http.port 8545 --http.api personal,web3,eth,net --http.corsdomain '*'
 
-You can of course replace the --data-dir argument by the location of your choice, currently the light client takes < 500 MB of space.
-
-For this tutorial, I have used 192.168.1.15 as "local IP", I will use this value later on. Change it accordingly.
+You can of course replace the --datadir argument by the location of your choice, currently the light client takes < 500 MB of space.
 
 Let the blockchain sync, with the light client it's pretty fast (around 15 mins). You can see if it's synced if you only have "Imported new block headers" messages on the logs.
 
 #### Metamask Setup
 
-Open Metamask, click on the Network drop down which is at the very top, select "Custom RPC"
+Open Metamask, click on the Network drop down which is at the very top, select "Localhost 8545"
 
-Set those values :
-
-**Network Name** : pick_whatever_you_want
-
-**New RPC URL** : http://REPLACE_BY_YOUR_LOCAL_IP:HTTP_PORT (e.g here : 192.168.1.15:5566)
-
-**Chain ID** : 1
-
-![img](rpc_setup_mm.png)
-
-If all goes well, Metamask will allow it !
+![img](local_client.png)
 
 You can then try to send a Tx through it to see if it works ! If you are fast enough, you'll see that your Geth client received a transaction in its logs.
 
