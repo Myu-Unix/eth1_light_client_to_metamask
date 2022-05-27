@@ -1,4 +1,4 @@
-# How to setup Metamask via a local Geth "light client"
+# How to plug an ethereum "light client" to Metamask
 
 ![img](header.png)
 
