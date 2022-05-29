@@ -1,4 +1,4 @@
-# How to plug an ethereum "light client" to Metamask
+# How to plug an Ethereum "light client" to Metamask 📡
 
 ![img](header.png)
 
@@ -36,3 +36,5 @@ That's all folks, happy setup ! :)
 
     Geth 1.10.18
     Metamask 10.x
+
+See also : https://ethereum.org/en/developers/tutorials/run-light-node-geth/
