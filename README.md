@@ -4,11 +4,11 @@
 
 How to setup a local Ethereum 1.0 light client using Geth and how to connect it to Metamask.
 
-This main benefit is to not **fully** rely on third-party infrastructure (i.e Infura) to submit transactions the Ethereum mempool - your light client is actually getting data from full nodes so a full node might be an even better option if you can spare the cash for a 2TB+ SSD (port-merge) - this helps data availibility within the network.
+This main benefit is to not **fully** rely on third-party infrastructure (i.e Infura) to submit transactions the Ethereum mempool - your light client is actually getting data from full nodes so a full node might be an even better option if you can spare the cash for a 2TB+ SSD (port-merge) - this helps data availability within the network.
 
 Use it at your own risk. Always DYOR regarding distributed systems and crypto.
 
-An update will be released for Ethereum Proof-of-stake port Merge.
+An update will be released for Ethereum Proof-of-stake post Merge.
 
 #### Install Geth
 
